@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            condition = "sender.tag == 0"
+            continueAfterRunningActions = "No"
+            filePath = "Telefonica/Custom Views/UIHeaderTableView.m"
+            timestampString = "472304991.48882"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-buttonClicked:"
+            landmarkType = "5">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.AppleScript">
+                  <ActionContent
+                     script = "tell application &quot;Calendar&quot;&#13;&#9;view calendar at (my (current date))&#13;&#9;switch view to day view&#13;&#9;activate&#13;&#9;tell application &quot;System Events&quot;&#13;&#9;&#9;keystroke &quot;p&quot; using command down&#13;&#9;&#9;delay 1 -- (seconds)&#13;&#9;&#9;keystroke return&#13;&#9;&#9;delay 2 -- (seconds)&#13;&#9;&#9;keystroke return&#13;&#9;end tell&#13;&#9;quit&#13;end tell&#13;">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Telefonica/Custom Views/UIHeaderTableView.m"
+            timestampString = "472303559.657048"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-buttonClicked:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            condition = "section == 0"
+            continueAfterRunningActions = "No"
+            filePath = "Telefonica/View Controllers/UISettingsViewController.m"
+            timestampString = "472321721.62904"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "-tableView:viewForHeaderInSection:"
+            landmarkType = "5">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.AppleScript">
+                  <ActionContent
+                     script = "tell application &quot;Calendar&quot;&#13;&#9;view calendar at (my (current date))&#13;&#9;switch view to day view&#13;&#9;activate&#13;&#9;tell application &quot;System Events&quot;&#13;&#9;&#9;keystroke &quot;p&quot; using command down&#13;&#9;&#9;delay 1 -- (seconds)&#13;&#9;&#9;keystroke return&#13;&#9;&#9;delay 2 -- (seconds)&#13;&#9;&#9;keystroke return&#13;&#9;end tell&#13;&#9;quit&#13;end tell&#10;">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Telefonica/Custom Views/UIHeaderTableView.m"
+            timestampString = "472380916.231511"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-buttonClicked:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Telefonica/Custom Views/UIHeaderTableView.m"
+            timestampString = "472315078.783236"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-buttonClicked:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

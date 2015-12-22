@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6855F711C285AA4003D4FFD /* UIHeaderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6855F6F1C285AA4003D4FFD /* UIHeaderTableView.m */; };
+		D6855F721C285AA4003D4FFD /* UIHeaderTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6855F701C285AA4003D4FFD /* UIHeaderTableView.xib */; };
+		D6855F771C285B0D003D4FFD /* UISettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6855F751C285B0D003D4FFD /* UISettingsViewController.m */; };
+		D6855F781C285B0D003D4FFD /* UISettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6855F761C285B0D003D4FFD /* UISettingsViewController.xib */; };
+		D6D905ED1C23DA0900C048B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D905EC1C23DA0900C048B7 /* main.m */; };
+		D6D905F01C23DA0900C048B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D905EF1C23DA0900C048B7 /* AppDelegate.m */; };
+		D6D90C2E1C23E04800C048B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D90C2A1C23E04800C048B7 /* Assets.xcassets */; };
+		D6D90C2F1C23E04800C048B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6D90C2B1C23E04800C048B7 /* Info.plist */; };
+		D6D90C301C23E04800C048B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D90C2C1C23E04800C048B7 /* LaunchScreen.storyboard */; };
+		D6D90C311C23E04800C048B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D90C2D1C23E04800C048B7 /* Main.storyboard */; };
+		D6D90C341C23E07800C048B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D90C331C23E07800C048B7 /* ViewController.m */; };
+		D6D90C371C23E21900C048B7 /* CellData.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D90C361C23E21900C048B7 /* CellData.m */; };
+		D6D90C401C23E2C100C048B7 /* UIToggleWithTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D90C3C1C23E2C100C048B7 /* UIToggleWithTextCell.m */; };
+		D6D90C411C23E2C100C048B7 /* UIToggleWithTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D90C3D1C23E2C100C048B7 /* UIToggleWithTextCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D665DA041C29357500FA0293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D665DA001C29357500FA0293 /* AIScorpion.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED8F6C311990D6A0007E816D;
+			remoteInfo = AIScorpion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D665D9FC1C2932AB00FA0293 /* Telefonica-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Telefonica-Prefix.pch"; sourceTree = "<group>"; };
+		D665DA001C29357500FA0293 /* AIScorpion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AIScorpion.xcodeproj; path = "../../../../../Documents/Projects/AIScorpion/action-item_aiscorpion/trunk/AI Scorpion Framework/AIScorpion.xcodeproj"; sourceTree = "<group>"; };
+		D6855F6E1C285AA4003D4FFD /* UIHeaderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHeaderTableView.h; sourceTree = "<group>"; };
+		D6855F6F1C285AA4003D4FFD /* UIHeaderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHeaderTableView.m; sourceTree = "<group>"; };
+		D6855F701C285AA4003D4FFD /* UIHeaderTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIHeaderTableView.xib; sourceTree = "<group>"; };
+		D6855F741C285B0D003D4FFD /* UISettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISettingsViewController.h; sourceTree = "<group>"; };
+		D6855F751C285B0D003D4FFD /* UISettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISettingsViewController.m; sourceTree = "<group>"; };
+		D6855F761C285B0D003D4FFD /* UISettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UISettingsViewController.xib; sourceTree = "<group>"; };
+		D6C435341C26D46F00E889DF /* 4. Print Daily iCal Agenda.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "4. Print Daily iCal Agenda.scpt"; sourceTree = "<group>"; };
+		D6D905E81C23DA0900C048B7 /* Telefonica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telefonica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D905EC1C23DA0900C048B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6D905EE1C23DA0900C048B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6D905EF1C23DA0900C048B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6D90C2A1C23E04800C048B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6D90C2B1C23E04800C048B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D90C2C1C23E04800C048B7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6D90C2D1C23E04800C048B7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D6D90C321C23E07800C048B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6D90C331C23E07800C048B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6D90C351C23E21900C048B7 /* CellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellData.h; sourceTree = "<group>"; };
+		D6D90C361C23E21900C048B7 /* CellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellData.m; sourceTree = "<group>"; };
+		D6D90C3B1C23E2C100C048B7 /* UIToggleWithTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIToggleWithTextCell.h; sourceTree = "<group>"; };
+		D6D90C3C1C23E2C100C048B7 /* UIToggleWithTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIToggleWithTextCell.m; sourceTree = "<group>"; };
+		D6D90C3D1C23E2C100C048B7 /* UIToggleWithTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIToggleWithTextCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D905E51C23DA0900C048B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D665DA011C29357500FA0293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D665DA051C29357500FA0293 /* libAIScorpion.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6855F6D1C285AA4003D4FFD /* Header Table View  */ = {
+			isa = PBXGroup;
+			children = (
+				D6855F6E1C285AA4003D4FFD /* UIHeaderTableView.h */,
+				D6855F6F1C285AA4003D4FFD /* UIHeaderTableView.m */,
+				D6855F701C285AA4003D4FFD /* UIHeaderTableView.xib */,
+			);
+			path = "Header Table View ";
+			sourceTree = "<group>";
+		};
+		D6855F731C285B0D003D4FFD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D6855F741C285B0D003D4FFD /* UISettingsViewController.h */,
+				D6855F751C285B0D003D4FFD /* UISettingsViewController.m */,
+				D6855F761C285B0D003D4FFD /* UISettingsViewController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D6D905DF1C23DA0800C048B7 = {
+			isa = PBXGroup;
+			children = (
+				D6D905EA1C23DA0900C048B7 /* Telefonica */,
+				D6D905E91C23DA0900C048B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D905E91C23DA0900C048B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D905E81C23DA0900C048B7 /* Telefonica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6D905EA1C23DA0900C048B7 /* Telefonica */ = {
+			isa = PBXGroup;
+			children = (
+				D6D906021C23DD2100C048B7 /* 3rd Party */,
+				D6D906031C23DD3600C048B7 /* Shared */,
+				D6D906041C23DD4800C048B7 /* Logic */,
+				D6D906151C23DD6E00C048B7 /* Custom Views */,
+				D6D906111C23DD6400C048B7 /* View Controllers */,
+				D6D905EE1C23DA0900C048B7 /* AppDelegate.h */,
+				D6D905EF1C23DA0900C048B7 /* AppDelegate.m */,
+				D6D906081C23DD5900C048B7 /* Resourcess */,
+				D6D905EB1C23DA0900C048B7 /* Supporting Files */,
+			);
+			path = Telefonica;
+			sourceTree = "<group>";
+		};
+		D6D905EB1C23DA0900C048B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6D905EC1C23DA0900C048B7 /* main.m */,
+				D665D9FC1C2932AB00FA0293 /* Telefonica-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6D906021C23DD2100C048B7 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				D665DA001C29357500FA0293 /* AIScorpion.xcodeproj */,
+			);
+			path = "3rd Party";
+			sourceTree = "<group>";
+		};
+		D6D906031C23DD3600C048B7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D6D906041C23DD4800C048B7 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D6D906051C23DD4800C048B7 /* Data Models */,
+				D6D906061C23DD4800C048B7 /* Mangers */,
+				D6D906071C23DD4800C048B7 /* Query */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		D6D906051C23DD4800C048B7 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		D6D906061C23DD4800C048B7 /* Mangers */ = {
+			isa = PBXGroup;
+			children = (
+				D6D90C351C23E21900C048B7 /* CellData.h */,
+				D6D90C361C23E21900C048B7 /* CellData.m */,
+			);
+			path = Mangers;
+			sourceTree = "<group>";
+		};
+		D6D906071C23DD4800C048B7 /* Query */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
+		D6D906081C23DD5900C048B7 /* Resourcess */ = {
+			isa = PBXGroup;
+			children = (
+				D6C435341C26D46F00E889DF /* 4. Print Daily iCal Agenda.scpt */,
+				D6D90C2A1C23E04800C048B7 /* Assets.xcassets */,
+				D6D90C2B1C23E04800C048B7 /* Info.plist */,
+				D6D90C2C1C23E04800C048B7 /* LaunchScreen.storyboard */,
+				D6D90C2D1C23E04800C048B7 /* Main.storyboard */,
+			);
+			path = Resourcess;
+			sourceTree = "<group>";
+		};
+		D6D906111C23DD6400C048B7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6855F731C285B0D003D4FFD /* Settings */,
+				D6D90C321C23E07800C048B7 /* ViewController.h */,
+				D6D90C331C23E07800C048B7 /* ViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D6D906151C23DD6E00C048B7 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6855F6D1C285AA4003D4FFD /* Header Table View  */,
+				D6D90C431C23E30600C048B7 /* Toggle With Text */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		D6D90C431C23E30600C048B7 /* Toggle With Text */ = {
+			isa = PBXGroup;
+			children = (
+				D6D90C3B1C23E2C100C048B7 /* UIToggleWithTextCell.h */,
+				D6D90C3C1C23E2C100C048B7 /* UIToggleWithTextCell.m */,
+				D6D90C3D1C23E2C100C048B7 /* UIToggleWithTextCell.xib */,
+			);
+			path = "Toggle With Text";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D905E71C23DA0900C048B7 /* Telefonica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D905FF1C23DA0900C048B7 /* Build configuration list for PBXNativeTarget "Telefonica" */;
+			buildPhases = (
+				D6D905E41C23DA0900C048B7 /* Sources */,
+				D6D905E51C23DA0900C048B7 /* Frameworks */,
+				D6D905E61C23DA0900C048B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telefonica;
+			productName = Telefonica;
+			productReference = D6D905E81C23DA0900C048B7 /* Telefonica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D905E01C23DA0800C048B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Action item";
+				TargetAttributes = {
+					D6D905E71C23DA0900C048B7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D6D905E31C23DA0800C048B7 /* Build configuration list for PBXProject "Telefonica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D905DF1C23DA0800C048B7;
+			productRefGroup = D6D905E91C23DA0900C048B7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D665DA011C29357500FA0293 /* Products */;
+					ProjectRef = D665DA001C29357500FA0293 /* AIScorpion.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D6D905E71C23DA0900C048B7 /* Telefonica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D665DA051C29357500FA0293 /* libAIScorpion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAIScorpion.a;
+			remoteRef = D665DA041C29357500FA0293 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D905E61C23DA0900C048B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D90C301C23E04800C048B7 /* LaunchScreen.storyboard in Resources */,
+				D6D90C2F1C23E04800C048B7 /* Info.plist in Resources */,
+				D6D90C411C23E2C100C048B7 /* UIToggleWithTextCell.xib in Resources */,
+				D6D90C2E1C23E04800C048B7 /* Assets.xcassets in Resources */,
+				D6D90C311C23E04800C048B7 /* Main.storyboard in Resources */,
+				D6855F721C285AA4003D4FFD /* UIHeaderTableView.xib in Resources */,
+				D6855F781C285B0D003D4FFD /* UISettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D905E41C23DA0900C048B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D90C341C23E07800C048B7 /* ViewController.m in Sources */,
+				D6D90C401C23E2C100C048B7 /* UIToggleWithTextCell.m in Sources */,
+				D6D905F01C23DA0900C048B7 /* AppDelegate.m in Sources */,
+				D6D90C371C23E21900C048B7 /* CellData.m in Sources */,
+				D6855F711C285AA4003D4FFD /* UIHeaderTableView.m in Sources */,
+				D6855F771C285B0D003D4FFD /* UISettingsViewController.m in Sources */,
+				D6D905ED1C23DA0900C048B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D6D905FD1C23DA0900C048B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6D905FE1C23DA0900C048B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D906001C23DA0900C048B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "/Users/actionitem/Desktop/Projects/Telefonica/Telefonica/Telefonica-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/Projects/AIScorpion\"/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Telefonica/Resourcess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.action-item.Telefonica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6D906011C23DA0900C048B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "/Users/actionitem/Desktop/Projects/Telefonica/Telefonica/Telefonica-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/Projects/AIScorpion\"/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Telefonica/Resourcess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.action-item.Telefonica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D905E31C23DA0800C048B7 /* Build configuration list for PBXProject "Telefonica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D905FD1C23DA0900C048B7 /* Debug */,
+				D6D905FE1C23DA0900C048B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D905FF1C23DA0900C048B7 /* Build configuration list for PBXNativeTarget "Telefonica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D906001C23DA0900C048B7 /* Debug */,
+				D6D906011C23DA0900C048B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D905E01C23DA0800C048B7 /* Project object */;
+}
